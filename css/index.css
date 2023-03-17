@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
+*{
+    font-family: 'Sansita', sans-serif;
+}
+body{
+    background-color: rgb(14, 147, 236);
+}
+.nav{ 
+    position: absolute; 
+    z-index: 1;
+    text-align: center;
+    left: 50%;
+    transform:translatex(-50%);
+}
+.nav ul{
+    list-style: none;
+}
+.nav ul li{
+    float: left;
+    margin-left: 1rem;
+    font-size: 1.6rem;
+    transition: all .5s linear;
+    border-radius: .2rem;
+    padding: .3rem;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav ul li:hover{
+    border-bottom: solid .3rem orange;
+    background-color: rgba(0, 0, 0, 0.138);
+}
+.nav ul li:hover a{
+    color: white;
+}
+.fnd{
+    height: 97vh;
+    width: 99%;
+    left: .4rem;
+    position: relative;
+    top: .5rem;
+    opacity: .5;
+    border-radius: .5rem;
+}
+[title~=img1]{
+    position: absolute;
+    top: 6rem;
+    left: 9rem;
+    width: 400px;
+    height: 400px;
+}
+[title~=titulo1]{
+    position: absolute;
+    top: 3rem;
+    font-size: 5rem;
+    width: 500px;
+    color: black;
+    left: 45rem;    
+}
+
+[title~=parrafo1]{
+    position: absolute;
+    top: 30rem;
+    left: 45rem;
+    font-size: 1.1rem;
+    color: white;
+    height: 50px;
+    padding-right: 16rem;
+    padding-left: 1rem;
+    background-color: rgb(247, 139, 51);
+}

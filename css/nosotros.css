@@ -1,0 +1,51 @@
+[title~=parrafo2]{
+    position: absolute;
+    top: 8rem;
+    left: -1rem;
+    color: white;
+    height: 5rem;
+    padding-right: 42rem;
+    padding-left: 1rem;
+    background-color: rgb(247, 139, 51);
+}
+article > p{
+    position: absolute;
+    top: -2.7rem;
+    left: 8rem;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.fondo{
+    background-color: rgba(255, 255, 255, 0.767);
+    height: 97vh;
+    width: 99%;
+    top: .5rem;
+    left: .4rem;
+    position: relative;
+    opacity: .5;
+    border-radius: .5rem;
+
+}
+[title~=imagen] img{
+    position: absolute;
+    top: 19rem;
+    left: 62rem;
+    width: 20rem;
+    height: 20rem;
+}
+[title~=parrafo3]{
+    font-size: 1rem;
+    position: absolute;
+    top: 14rem;
+    width: 34rem;
+    text-align: justify;
+    left: 7rem;
+}
+[title~=parrafo4]{
+    font-size: 1rem;
+    position: absolute;
+    top: 18rem;
+    width: 34rem;
+    text-align: justify;
+    left: 7rem;
+}

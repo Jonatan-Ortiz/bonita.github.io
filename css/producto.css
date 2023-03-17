@@ -1,0 +1,39 @@
+.nav{ position: absolute; top: 2rem;}
+.productos{margin-top: 1rem; position: relative;}
+.productos h1{margin-top: 1rem; color: black; font-size: 50px; font-family: 'Amaranth', sans-serif; text-align: center;}
+#h1p{margin-left: auto; margin-right: auto; margin-top: 8rem; text-align: center; border-bottom: solid .2rem orange; width: 30rem;}
+#tabla{width: 88%; height: 500px; position: absolute; left: 10%;}
+.border1{width: 80%; height: 810px; left: 10%; position: relative; margin-top: 2%; background: rgb(255, 255, 255); border: black .1rem solid; box-shadow: 8px 12px 20px black;}
+.border2{width: 98%; height: 780px; left: 0.9%; position: relative; margin-top: 1%; background: rgb(255, 255, 255); border: black .1rem solid;}
+#tittle{font-size: 25px;}
+#texto2{margin-top: 5%;}
+.columna1{width: 46%; height: 85%;top: 6%;position: relative; font-family: 'Amaranth', sans-serif;}
+.columna1 h1{font-size: 25px;}
+.columna1 ul{list-style: none;}
+.columna1 ul li{font-size: 20px;}
+#list1{position: relative; margin-top: 5%; margin-bottom: 2%;left: 5%;}
+.columna1 ul li p{font-size: 15px; margin-top: 2%;}
+#viñeta1{position:absolute; margin-top: 5px;left: 5%;}
+#list2{position: relative; margin-top: 10%; margin-bottom: 2%;left: 5%;}
+#viñeta2{position:absolute; margin-top: 5px;left: 5%;}
+#list3{position: relative; margin-top: 10%; margin-bottom: 2%;left: 5%;}
+#viñeta3{position:absolute; margin-top: 5px;left: 5%;}
+#list4{position: relative; margin-top: 10%; margin-bottom: 2%;left: 5%;}
+#viñeta4{position:absolute; margin-top: 5px; left: 5%;}
+#list5{position: relative; margin-top: 10%; margin-bottom: 2%;left: 5%;}
+#viñeta5{position:absolute; margin-top: 5px;left: 5%;}
+.columna2{width: 46%; height: 85%;top: -81%;position: relative;left: 50%; font-family: 'Amaranth', sans-serif;}
+.columna2 h1{font-size: 25px;}
+.columna2 ul{list-style: none;}
+.columna2 ul li{font-size: 20px;}
+#list1{position: relative; margin-top: 5%; margin-bottom: 2%;left: 5%;}
+.columna2 ul li p{font-size: 15px; margin-top: 2%;}
+#viñeta1{position:absolute; margin-top: 5px;left: 5%;}
+#list2{position: relative; margin-top: 10%; margin-bottom: 2%;left: 5%;}
+#viñeta2{position:absolute; margin-top: 5px;left: 5%;}
+#list3{position: relative; margin-top: 10%; margin-bottom: 2%;left: 5%;}
+#viñeta3{position:absolute; margin-top: 5px;left: 5%;}
+#list4{position: relative; margin-top: 10%; margin-bottom: 2%;left: 5%;}
+#viñeta4{position:absolute; margin-top: 5px; left: 5%;}
+#list5{position: relative; margin-top: 10%; margin-bottom: 2%;left: 5%;}
+#viñeta5{position:absolute; margin-top: 5px;left: 5%;}

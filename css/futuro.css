@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+.nav{
+    position: fixed; 
+    top: 1rem;
+}
+.nav ul li:hover a{
+    color: rgb(0, 0, 0);
+}
+.futuro-title{
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 5rem; 
+    text-align: center; 
+    border-bottom: solid .2rem orange; 
+    width: 30rem;
+    font-size: 2.5rem;
+}
+section{
+    background-color: rgb(255, 255, 255);
+    height: 97vh;
+    width: 99%;
+    margin-left: .3rem;
+}
+.card-body{
+    background-color: white;
+    border-radius: 1rem;
+    height: 29rem;
+    width: 19rem;
+    overflow: hidden;
+    position: relative;
+    top: 5rem;
+    left: 2rem;
+    transition: all .5s linear;
+    float: left;
+    margin-left: 5rem;
+    border: solid .15rem black;
+}
+.card-body .card-image img{
+    height: 19rem;
+    width: 19rem;
+}
+.card-body .card-text{
+    background-color: rgb(0, 0, 0);
+    width: 19rem;
+    height: 16rem;
+    top: -20rem;
+    margin-top: 20rem;
+    overflow: hidden;
+    border-top: solid .2rem rgb(0, 0, 0);
+    transition: all 1s linear;
+    z-index: 1;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.card-body .card-text p {
+    position: relative;
+    z-index: 1;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    text-align: justify;
+    font-family: 'Amaranth', sans-serif;
+    margin-top: -.01rem;
+}
+.logo{
+    position: absolute;
+    height: 10rem;
+    width: 10rem;
+    margin-left: 4.5rem;
+    margin-top: -1rem;
+    transition: all .5s linear;
+    transition-delay: .2s;
+}
+.card-body:hover .card-text{
+    margin-top: -1rem;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+.card-body:hover{
+    box-shadow: 8px 12px 20px black;
+    border: solid .15rem black;
+}
+.card-body:hover .logo{
+    opacity: 0;
+}
+.card-body .card-title{
+    position: absolute;
+    font-size: 1.5rem;
+    left: 0;
+    top: -1rem;
+    text-align: center;
+    width: 19rem;
+}
+.logo + p{
+    position: absolute;
+    width: 19rem;
+    text-align: center;
+    top: 21.5rem;
+    opacity: 1;
+    transition: all .5s linear;
+    transition-delay: .2s;
+}
+.card-body:hover .logo + p{
+    opacity: 0;
+    cursor: pointer;
+}
